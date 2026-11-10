@@ -17,13 +17,11 @@ public:
 private:
     Wingman3CloneAudioProcessor& audioProcessor;
 
-    // Wingman 3 স্টাইলের প্রেসেট বাটনগুলো (Future Bass, Trap, EDM ইত্যাদি)
     juce::TextButton futureBassButton  { "FUTURE BASS" };
     juce::TextButton trapButton        { "TRAP" };
     juce::TextButton edmButton         { "EDM POP" };
     juce::TextButton melodicButton     { "MELODIC" };
 
-    // মেইন নোব বা কাটার
     juce::Slider energyKnob;
     juce::Label energyLabel;
 
